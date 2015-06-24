@@ -1,0 +1,14 @@
+{
+  "name": "chriscowley-puppetclean",
+  "version": "0.1.0",
+  "author": "chriscowley",
+  "summary": "Cleans up old Puppet reports",
+  "license": "Apache 2.0",
+  "source": "https://github.com/chriscowley/chriscowley-puppetclean.git",
+  "project_page": "https://github.com/chriscowley/chriscowley-puppetclean",
+  "issues_url": "https://github.com/chriscowley/chriscowley-puppetclean/issues",
+  "dependencies": [
+      {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+    ]
+}
+
