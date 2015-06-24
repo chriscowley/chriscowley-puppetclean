@@ -1,6 +1,6 @@
 class puppetclean {
   file { '/usr/local/bin/puppet-report-stalker':
-    source => template('puppetclean/puppet-report-stalker.erb')
+    source => template('puppetclean/puppet-report-stalker.erb'),
     before => Cron['clean reports'],
     mode   => 700,
     owner  => 'root',
